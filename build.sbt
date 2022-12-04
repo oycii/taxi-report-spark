@@ -30,5 +30,12 @@ libraryDependencies ++= Seq(
   "org.flywaydb"            % "flyway-core"                         % "7.3.2",
   "org.postgresql"          % "postgresql"                            % "42.2.2" ,
   "ch.qos.logback" % "logback-classic" % "1.3.2",
-  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+  "io.cucumber" % "cucumber-core" % "6.7.0",
+  "io.cucumber" % "cucumber-java" % "6.7.0",
+  "io.cucumber" % "cucumber-junit" % "6.7.0" % "test",
+  "io.cucumber" % "cucumber-guice" % "6.7.0" % "test",
+  "org.mockito" % "mockito-core" % "3.5.13",
+  "org.mockito" % "mockito-inline" % "3.5.13",
+  "com.novocode" % "junit-interface" % "0.11" % "test"
 )

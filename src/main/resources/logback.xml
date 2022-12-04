@@ -21,5 +21,5 @@
         <appender-ref ref="FILE" />
     </root>
 
-    <logger name="com.github.oycii" level="INFO" />
+    <logger name="com.github.oycii" level="ERROR" />
 </configuration>
